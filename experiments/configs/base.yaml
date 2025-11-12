@@ -1,0 +1,15 @@
+seed: 42
+n_nodes: 500            # hoy: chico para ver rápido
+graph:
+  type: "ws"            # "er" | "ws" | "ba"
+  k: 6                  # solo WS
+  p: 0.05               # prob. rewire WS
+deffuant:
+  epsilon: 0.8       # umbral de confianza d
+  mu: 0.5               # paso de ajuste 0<mu<=0.5
+sim:
+  n_steps: 10000
+  snapshot_every: 500
+io:
+  results_dir: "experiments/results"
+  figs_dir: "experiments/figs"
