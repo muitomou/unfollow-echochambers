@@ -19,8 +19,8 @@ with open(BASE_CFG_PATH) as f:
     base_cfg = yaml.safe_load(f)
 
 # --- Rango de parámetros a explorar ---
-epsilons = [0.1, 0.15, 0.2, 0.25, 0.3]
-p_cuts = [0.01, 0.05, 0.1, 0.15, 0.2]
+epsilons = [0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
+p_cuts = [0.01, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3]
 
 # --- Resultados ---
 rows = []
