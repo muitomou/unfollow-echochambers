@@ -1,4 +1,4 @@
-# Unfollow Model 🕸️📉
+# Unfollow Model
 
 Este repositorio contiene el código y los experimentos del proyecto **Polarización por Ruptura de Lazos**. 
 
